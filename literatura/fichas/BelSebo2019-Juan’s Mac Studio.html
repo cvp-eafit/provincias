@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BelSebo2019 — Meta-regresion sobre cooperacion intermunicipal y costos de prestacion de servicios – Fortalecimiento de Esquemas Asociativos Territoriales</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-87cd18ad52afdbdc3c01bbea34e4f611.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-13a89b220f63f6e958eebf29d65cc7f9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-87cd18ad52afdbdc3c01bbea34e4f611.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6179dd7394c1c82cb6fa6c1dd1ccc07f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-7b9d3389941284fba66f0ef6e7aa1ce8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-6179dd7394c1c82cb6fa6c1dd1ccc07f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="BelSebo2019 — Meta-regresion sobre cooperacion intermunicipal y costos de prestacion de servicios – Fortalecimiento de Esquemas Asociativos Territoriales">
+<meta property="og:description" content="Proyecto de fortalecimiento de las Provincias Administrativas y de Planificación (PAP) en Antioquia">
+<meta property="og:site_name" content="Fortalecimiento de Esquemas Asociativos Territoriales">
+<meta name="twitter:title" content="BelSebo2019 — Meta-regresion sobre cooperacion intermunicipal y costos de prestacion de servicios – Fortalecimiento de Esquemas Asociativos Territoriales">
+<meta name="twitter:description" content="Proyecto de fortalecimiento de las Provincias Administrativas y de Planificación (PAP) en Antioquia">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/logo-cvp.png" alt="Centro de Valor Público - Universidad EAFIT" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Fortalecimiento de Esquemas Asociativos Territoriales</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../marco.html"> 
+<span class="menu-text">Revisión de Literatura</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../planes.html"> 
+<span class="menu-text">Planes Estratégicos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../habilitadores.html"> 
+<span class="menu-text">Habilitadores</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../analisis.html"> 
+<span class="menu-text">Análisis Territorial</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../presentaciones.html"> 
+<span class="menu-text">Presentaciones</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/cvp-eafit/proyecto-provincias"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.zotero.org/groups/6452755/proyecto_provincias_antioquia"> <i class="bi bi-book" role="img" aria-label="Zotero Library">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#metadatos" id="toc-metadatos" class="nav-link active" data-scroll-target="#metadatos">1. Metadatos</a></li>
+  <li><a href="#objetivo-y-preguntas-de-investigacion" id="toc-objetivo-y-preguntas-de-investigacion" class="nav-link" data-scroll-target="#objetivo-y-preguntas-de-investigacion">2. Objetivo y preguntas de investigacion</a></li>
+  <li><a href="#marco-teorico-conceptos-clave" id="toc-marco-teorico-conceptos-clave" class="nav-link" data-scroll-target="#marco-teorico-conceptos-clave">3. Marco teorico / Conceptos clave</a></li>
+  <li><a href="#metodologia" id="toc-metodologia" class="nav-link" data-scroll-target="#metodologia">4. Metodologia</a>
+  <ul class="collapse">
+  <li><a href="#diseno" id="toc-diseno" class="nav-link" data-scroll-target="#diseno">Diseno</a></li>
+  <li><a href="#contexto" id="toc-contexto" class="nav-link" data-scroll-target="#contexto">Contexto</a></li>
+  <li><a href="#muestra-casos" id="toc-muestra-casos" class="nav-link" data-scroll-target="#muestra-casos">Muestra / Casos</a></li>
+  <li><a href="#variables-dimensiones-principales" id="toc-variables-dimensiones-principales" class="nav-link" data-scroll-target="#variables-dimensiones-principales">Variables / Dimensiones principales</a></li>
+  <li><a href="#tecnicas-de-analisis" id="toc-tecnicas-de-analisis" class="nav-link" data-scroll-target="#tecnicas-de-analisis">Tecnicas de analisis</a></li>
+  <li><a href="#limitaciones-metodologicas-declaradas" id="toc-limitaciones-metodologicas-declaradas" class="nav-link" data-scroll-target="#limitaciones-metodologicas-declaradas">Limitaciones metodologicas declaradas</a></li>
+  </ul></li>
+  <li><a href="#hallazgos-principales" id="toc-hallazgos-principales" class="nav-link" data-scroll-target="#hallazgos-principales">5. Hallazgos principales</a></li>
+  <li><a href="#relevancia-para-el-proyecto" id="toc-relevancia-para-el-proyecto" class="nav-link" data-scroll-target="#relevancia-para-el-proyecto">6. Relevancia para el proyecto</a>
+  <ul class="collapse">
+  <li><a href="#alcance-1-planes-estrategicos-pap" id="toc-alcance-1-planes-estrategicos-pap" class="nav-link" data-scroll-target="#alcance-1-planes-estrategicos-pap">Alcance 1 – Planes estrategicos PAP</a></li>
+  <li><a href="#alcance-2-delegacion-de-competencias" id="toc-alcance-2-delegacion-de-competencias" class="nav-link" data-scroll-target="#alcance-2-delegacion-de-competencias">Alcance 2 – Delegacion de competencias</a></li>
+  <li><a href="#alcance-3-sistematizacion" id="toc-alcance-3-sistematizacion" class="nav-link" data-scroll-target="#alcance-3-sistematizacion">Alcance 3 – Sistematizacion</a></li>
+  <li><a href="#relevancia-general-alta" id="toc-relevancia-general-alta" class="nav-link" data-scroll-target="#relevancia-general-alta">Relevancia general: Alta</a></li>
+  </ul></li>
+  <li><a href="#limitaciones-y-precauciones" id="toc-limitaciones-y-precauciones" class="nav-link" data-scroll-target="#limitaciones-y-precauciones">7. Limitaciones y precauciones</a></li>
+  <li><a href="#citas-textuales-clave" id="toc-citas-textuales-clave" class="nav-link" data-scroll-target="#citas-textuales-clave">8. Citas textuales clave</a></li>
+  <li><a href="#conexiones-con-otros-estudios-del-corpus" id="toc-conexiones-con-otros-estudios-del-corpus" class="nav-link" data-scroll-target="#conexiones-con-otros-estudios-del-corpus">9. Conexiones con otros estudios del corpus</a></li>
+  <li><a href="#bibtex" id="toc-bibtex" class="nav-link" data-scroll-target="#bibtex">10. BibTeX</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">BelSebo2019 — Meta-regresion sobre cooperacion intermunicipal y costos de prestacion de servicios</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">4 de marzo de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Referencia completa:</strong> Bel, G., &amp; Sebo, M. (2019). Does inter-municipal cooperation really reduce delivery costs? An empirical evaluation of the role of scale economies, transaction costs, and governance arrangements. <em>Urban Affairs Review</em>, <em>55</em>(4), 1–36. https://doi.org/10.1177/1078087419839492 <strong>Fecha de extraccion:</strong> 2026-03-04 <strong>Extraído por:</strong> Juan Carlos Munoz Mora</p>
+<hr>
+<section id="metadatos" class="level2">
+<h2 class="anchored" data-anchor-id="metadatos">1. Metadatos</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campo</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Autores</strong></td>
+<td>Germa Bel, Marianna Sebo</td>
+</tr>
+<tr class="even">
+<td><strong>Ano</strong></td>
+<td>2019</td>
+</tr>
+<tr class="odd">
+<td><strong>Titulo completo</strong></td>
+<td>Does Inter-Municipal Cooperation Really Reduce Delivery Costs? An Empirical Evaluation of the Role of Scale Economies, Transaction Costs, and Governance Arrangements</td>
+</tr>
+<tr class="even">
+<td><strong>Revista / Fuente</strong></td>
+<td>Urban Affairs Review</td>
+</tr>
+<tr class="odd">
+<td><strong>Volumen(Numero)</strong></td>
+<td>55(4)</td>
+</tr>
+<tr class="even">
+<td><strong>Paginas</strong></td>
+<td>1–36</td>
+</tr>
+<tr class="odd">
+<td><strong>DOI</strong></td>
+<td>10.1177/1078087419839492</td>
+</tr>
+<tr class="even">
+<td><strong>Tipo de estudio</strong></td>
+<td>Meta-regresion cuantitativa (meta-regression analysis)</td>
+</tr>
+<tr class="odd">
+<td><strong>Nivel de evidencia</strong></td>
+<td>1 (Revision sistematica con meta-analisis de estudios multivariados)</td>
+</tr>
+<tr class="even">
+<td><strong>Idioma</strong></td>
+<td>Ingles</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="objetivo-y-preguntas-de-investigacion" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-y-preguntas-de-investigacion">2. Objetivo y preguntas de investigacion</h2>
+<p>El objetivo principal del articulo es explicar la divergencia en los resultados empiricos sobre si la cooperacion intermunicipal (IMC, por sus siglas en ingles) reduce o no los costos de prestacion de servicios publicos locales. Los autores buscan reconciliar los hallazgos contradictorios mediante un meta-regresion que sintetiza toda la literatura multivariada disponible.</p>
+<p>Las preguntas centrales son:</p>
+<ol type="1">
+<li><strong>Por que los estudios empiricos sobre IMC y costos producen resultados divergentes?</strong> (algunos encuentran ahorros, otros resultados mixtos o incrementos de costos).</li>
+<li><strong>Que rol juegan las economias de escala</strong> en la relacion entre cooperacion y costos? (Hipotesis 1: los municipios pequenos se benefician mas).</li>
+<li><strong>Que efecto tienen los costos de transaccion asociados al servicio</strong> en las ventajas de costo de la IMC? (Hipotesis 2: los costos de transaccion altos favorecen la cooperacion).</li>
+<li><strong>Como influyen los arreglos de gobernanza</strong> –en particular la delegacion a un nivel supramunicipal– en las ventajas de costos de la cooperacion? (Hipotesis 3: la delegacion a gobierno supramunicipal reduce costos).</li>
+</ol>
+<hr>
+</section>
+<section id="marco-teorico-conceptos-clave" class="level2">
+<h2 class="anchored" data-anchor-id="marco-teorico-conceptos-clave">3. Marco teorico / Conceptos clave</h2>
+<p>El articulo se situa en la interseccion de tres cuerpos teoricos:</p>
+<ol type="1">
+<li><p><strong>Economia publica local y economias de escala:</strong> Los municipios frecuentemente tienen un tamano suboptimo para la prestacion de servicios, producto de eventos historicos y culturales mas que de logica economica. La IMC permite redefinir los limites jurisdiccionales funcionales para mejorar la escala de produccion sin recurrir a la amalgamacion (fusion municipal). Se reconoce una relacion en forma de U entre tamano y costos (Ladd, 1992): los beneficios de escala se agotan a medida que crece la poblacion.</p></li>
+<li><p><strong>Costos de transaccion (Williamson, 1999; Brown &amp; Potoski, 2003, 2005):</strong> Se descomponen en: especificidad de activos (<em>asset specificity</em>), facilidad de medicion (<em>ease of measurement</em>), y dificultad de gestion contractual (<em>contract management difficulty</em>). Los servicios con alta especificidad de activos y dificultad de medicion generan altos costos de transaccion, lo que hace la privatizacion menos probable. La IMC, al basarse en confianza y aprendizaje interactivo, puede reducir estos costos a lo largo del tiempo. Sin embargo, tambien genera costos de informacion, coordinacion, negociacion, monitoreo y bargaining (Feiock, 2007).</p></li>
+<li><p><strong>Arreglos de gobernanza y teoria principal-agente:</strong> La IMC externaliza parcial o totalmente la toma de decisiones, generando problemas de accion colectiva y de multiples principales frente a un agente (Gailmard, 2009). La delegacion a un gobierno supramunicipal (comarca, mancomunidad, communaute, Unione dei Comuni) simplifica la relacion a un principal y un agente, permitiendo explotar economias de escala y alcance en el monitoreo y coordinacion (Bel &amp; Costas, 2006; Bovaird, 2014).</p></li>
+</ol>
+<p><strong>Conceptos clave para el proyecto:</strong></p>
+<ul>
+<li><strong>Cooperacion intermunicipal (IMC):</strong> Acuerdos voluntarios entre municipios para la prestacion conjunta de servicios publicos, como alternativa a la privatizacion y a la amalgamacion.</li>
+<li><strong>Economias de escala en servicios locales:</strong> La reduccion del costo medio al incrementar la escala de produccion; especialmente relevante para municipios pequenos.</li>
+<li><strong>Delegacion a gobierno supramunicipal:</strong> Transferencia de poder y recursos a entidades de nivel superior (comarcas, mancomunidades) para la gobernanza de la cooperacion, lo que reduce problemas de multiples principales.</li>
+<li><strong>Costos de transaccion asociados al servicio:</strong> Determinados por la especificidad de activos y la dificultad de medicion/gestion contractual del servicio especifico.</li>
+<li><strong>Problema de multiples principales:</strong> Riesgo de monitoreo suboptimo cuando varios municipios (principales) delegan en una sola entidad (agente).</li>
+<li><strong>Arreglos de gobernanza de la IMC:</strong> Acuerdos informales, contratos formales, cuerpos conjuntos (<em>joint bodies</em>), o delegacion a entidades supramunicipales.</li>
+</ul>
+<hr>
+</section>
+<section id="metodologia" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia">4. Metodologia</h2>
+<section id="diseno" class="level3">
+<h3 class="anchored" data-anchor-id="diseno">Diseno</h3>
+<p>Meta-regresion cuantitativa (meta-regression analysis) siguiendo la estructura propuesta por Jarrell y Stanley (1989). El modelo utiliza como variable dependiente el t-value reportado en cada estimacion individual de los estudios incluidos, lo cual corrige por heteroscedasticidad derivada de las diferencias en tamanos de muestra y especificaciones.</p>
+</section>
+<section id="contexto" class="level3">
+<h3 class="anchored" data-anchor-id="contexto">Contexto</h3>
+<p>La base de datos cubre estudios multivariados empiricos de Espana, Noruega, Paises Bajos, Italia, Francia, Republica Checa, Suecia, Alemania y Estados Unidos. La mayoria de los estudios son europeos, dado que en Europa la regionalizacion de servicios y el estudio de sus efectos en costos es mas frecuente que en EE.UU.</p>
+</section>
+<section id="muestra-casos" class="level3">
+<h3 class="anchored" data-anchor-id="muestra-casos">Muestra / Casos</h3>
+<ul>
+<li><strong>18 estudios multivariados</strong> (publicados y no publicados) identificados mediante busqueda sistematica en EconLit, SSRN, AgEcon, Repec-Ideas, OpenSIGLE, NBER, Google Scholar, y revision de citas.</li>
+<li><strong>111 estimaciones</strong> extraidas de estos estudios.</li>
+<li>20% de las estimaciones provienen de trabajos no publicados.</li>
+<li>2/3 de las estimaciones utilizan datos de panel.</li>
+<li>Busqueda realizada entre abril y julio de 2018.</li>
+</ul>
+</section>
+<section id="variables-dimensiones-principales" class="level3">
+<h3 class="anchored" data-anchor-id="variables-dimensiones-principales">Variables / Dimensiones principales</h3>
+<p><strong>Variable dependiente:</strong> - <em>T-Value</em>: Ratio entre el coeficiente reportado y su error estandar en cada estimacion, capturando el efecto de la IMC sobre los costos.</p>
+<p><strong>Variables moderadoras (control):</strong> - <em>SampleSize</em>: Numero de observaciones en cada estimacion. - <em>YearData</em>: Ano de recoleccion de los datos. - <em>US</em>: Dummy para estudios de Estados Unidos. - <em>Multiservice</em>: Dummy para estudios que consideran multiples servicios agregados. - <em>Panel</em>: Dummy para estudios con datos de panel.</p>
+<p><strong>Variables teoricas (hipotesis):</strong> - <em>Population</em>: Poblacion promedio de los municipios en la estimacion (proxy de escala). - <em>TransactionCosts</em>: Variable categorica (0 = bajo, 1 = intermedio, 2 = alto) basada en los indices de Brown &amp; Potoski (2005) y Hefetz &amp; Warner (2012). - <em>Delegation</em>: Dummy para estudios donde la gobernanza fue delegada a un gobierno supramunicipal.</p>
+<p><strong>Extension – descomposicion de costos de transaccion:</strong> - <em>Asset Specificity</em> (AS_B&amp;P, AS_H&amp;W): Nivel de infraestructura fisica o conocimiento tecnico especializado requerido. - <em>Ease of Measurement / Contract Management Difficulty</em> (EM_B&amp;P, CMD_H&amp;W): Cuantificabilidad del servicio en terminos contractuales.</p>
+</section>
+<section id="tecnicas-de-analisis" class="level3">
+<h3 class="anchored" data-anchor-id="tecnicas-de-analisis">Tecnicas de analisis</h3>
+<ol type="1">
+<li>OLS con errores estandar robustos (Robust OLS).</li>
+<li>Ecuaciones de estimacion generalizadas (GEE) para modelo de efectos aleatorios, corrigiendo la autocorrelacion intra-estudio.</li>
+<li>Minimos cuadrados generalizados (GLS) como prueba de robustez.</li>
+<li>Funnel plots y FAT (Funnel Asymmetry Test) para evaluar sesgo de publicacion.</li>
+<li>MTS (Meta-Significance Test) para verificar la existencia de un efecto genuino.</li>
+<li>FAT Meta-regressions adicionales para verificar que el sesgo de publicacion no compromete los resultados.</li>
+</ol>
+</section>
+<section id="limitaciones-metodologicas-declaradas" class="level3">
+<h3 class="anchored" data-anchor-id="limitaciones-metodologicas-declaradas">Limitaciones metodologicas declaradas</h3>
+<ul>
+<li>No se pudieron considerar cuestiones de calidad de servicio, dado que la evidencia empirica al respecto es extremadamente escasa.</li>
+<li>La escasez de estudios sobre Estados Unidos y la ausencia de estudios sobre paises en desarrollo impiden una generalizacion completa de los resultados.</li>
+<li>Se detecto sesgo de publicacion (los estudios publicados tienden a reportar efectos negativos sobre costos), aunque las pruebas de robustez confirman que no compromete las conclusiones principales.</li>
+<li>La variable de costos de transaccion es una aproximacion categorica construida a partir de indices previos, no una medicion directa.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="hallazgos-principales" class="level2">
+<h2 class="anchored" data-anchor-id="hallazgos-principales">5. Hallazgos principales</h2>
+<ol type="1">
+<li><p><strong>Economias de escala (Hipotesis 1 – confirmada):</strong> La variable <em>Population</em> es estadisticamente significativa (p &lt; 0.05 en Robust OLS; p &lt; 0.01 en GEE) con signo positivo, lo que confirma que los estudios realizados en municipios pequenos tienden a encontrar que la IMC es mas ventajosa en terminos de costos. A medida que la poblacion crece, las ventajas de costo de la cooperacion se reducen porque los municipios mas grandes ya pueden explotar las economias de escala por si solos.</p></li>
+<li><p><strong>Costos de transaccion (Hipotesis 2 – no confirmada / resultados mixtos):</strong> La variable <em>TransactionCosts</em> no es estadisticamente significativa en ninguna de las estimaciones principales. Sin embargo, cuando se descomponen en sus componentes:</p>
+<ul>
+<li><em>Asset Specificity</em> (AS_H&amp;W) es marginalmente significativa (p &lt; 0.10).</li>
+<li><em>Contract Management Difficulty</em> (CMD_H&amp;W) es significativa (p &lt; 0.05).</li>
+<li>Ambas asociadas con ventajas de costo de la IMC, pero los autores advierten que estos resultados son preliminares y requieren mas investigacion.</li>
+</ul></li>
+<li><p><strong>Delegacion a gobierno supramunicipal (Hipotesis 3 – fuertemente confirmada):</strong> La variable <em>Delegation</em> es significativa al 1% en todas las estimaciones (OLS, Robust OLS, GEE, GLS) con signo negativo, indicando que la delegacion de poder y recursos a un nivel supramunicipal esta asociada con ventajas de costo significativas para los municipios cooperantes.</p></li>
+<li><p><strong>Variables moderadoras relevantes:</strong></p>
+<ul>
+<li><em>Multiservice</em> (positivo, p &lt; 0.01): Los estudios que analizan multiples servicios agregados tienden a encontrar menos ventajas de costo de la IMC (probablemente porque incluyen servicios sin economias de escala claras).</li>
+<li><em>Panel</em> (negativo, p &lt; 0.01 o p &lt; 0.05): Los estudios con datos de panel tienden a encontrar mayores ventajas de costo, lo que sugiere que analisis mas robustos favorecen la conclusion de ahorro.</li>
+</ul></li>
+<li><p><strong>Sesgo de publicacion:</strong> Existe un sesgo hacia la publicacion de resultados negativos (ahorros de costos), pero el MTS confirma que hay un efecto genuino negativo de la IMC sobre los costos.</p></li>
+<li><p><strong>Mensaje de politica publica:</strong> “One size does not fit all” – la IMC puede ser ventajosa para algunos servicios pero no para otros. Los factores criticos son el tamano poblacional y el arreglo de gobernanza.</p></li>
+</ol>
+<hr>
+</section>
+<section id="relevancia-para-el-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="relevancia-para-el-proyecto">6. Relevancia para el proyecto</h2>
+<section id="alcance-1-planes-estrategicos-pap" class="level3">
+<h3 class="anchored" data-anchor-id="alcance-1-planes-estrategicos-pap">Alcance 1 – Planes estrategicos PAP</h3>
+<p><strong>Relevancia: Alta.</strong> Este estudio proporciona evidencia cuantitativa robusta de que la cooperacion intermunicipal puede reducir costos de prestacion de servicios, pero bajo condiciones especificas. Para los planes estrategicos de las PAP en Antioquia, los hallazgos sugieren que:</p>
+<ul>
+<li>La cooperacion sera mas beneficiosa para los municipios pequenos (que son la mayoria en las subregiones de Antioquia).</li>
+<li>La delegacion a la PAP como entidad supramunicipal es consistente con los arreglos de gobernanza que la evidencia muestra como mas exitosos (comarcas espanolas, communautes francesas, Unione dei Comuni italianas).</li>
+<li>Los planes estrategicos deben considerar que las ventajas de costo varian segun el tipo de servicio: no todos los servicios generan los mismos ahorros de escala.</li>
+<li>Es necesario identificar cuales servicios tienen mayores economias de escala potenciales en el contexto antioqueno para priorizar la cooperacion.</li>
+</ul>
+</section>
+<section id="alcance-2-delegacion-de-competencias" class="level3">
+<h3 class="anchored" data-anchor-id="alcance-2-delegacion-de-competencias">Alcance 2 – Delegacion de competencias</h3>
+<p><strong>Relevancia: Muy Alta.</strong> Este es quizas el hallazgo mas directamente relevante para el proyecto. La evidencia del meta-analisis muestra que la delegacion de competencias a un nivel supramunicipal (equivalente funcional de las PAP) produce ventajas de costo sistematicas y estadisticamente robustas. Esto se explica por:</p>
+<ul>
+<li>La simplificacion de la relacion principal-agente (de multiples principales a un solo principal supramunicipal).</li>
+<li>Las economias de escala y alcance en monitoreo y coordinacion.</li>
+<li>La reduccion de costos de transaccion de gobernanza.</li>
+</ul>
+<p>Para los estudios de delegacion de competencias en transporte y catastro, este articulo justifica teorica y empiricamente que la delegacion a la PAP puede ser mas eficiente que la prestacion individual, especialmente en municipios pequenos. Los ejemplos de comarcas y mancomunidades espanolas son directamente analogos a las PAP colombianas.</p>
+</section>
+<section id="alcance-3-sistematizacion" class="level3">
+<h3 class="anchored" data-anchor-id="alcance-3-sistematizacion">Alcance 3 – Sistematizacion</h3>
+<p><strong>Relevancia: Media.</strong> El articulo ofrece un marco analitico util para la sistematizacion de la experiencia de gobernanza PAP:</p>
+<ul>
+<li>La clasificacion de arreglos de gobernanza (acuerdos informales, contratos formales, cuerpos conjuntos, delegacion) proporciona una taxonomia aplicable a las PAP.</li>
+<li>El marco de economias de escala, costos de transaccion y gobernanza puede servir como estructura para evaluar las experiencias PAP.</li>
+<li>Los factores que explican la variacion en resultados (tamano poblacional, tipo de servicio, forma de gobernanza) pueden guiar la sistematizacion de lecciones aprendidas.</li>
+</ul>
+</section>
+<section id="relevancia-general-alta" class="level3">
+<h3 class="anchored" data-anchor-id="relevancia-general-alta">Relevancia general: Alta</h3>
+<hr>
+</section>
+</section>
+<section id="limitaciones-y-precauciones" class="level2">
+<h2 class="anchored" data-anchor-id="limitaciones-y-precauciones">7. Limitaciones y precauciones</h2>
+<ol type="1">
+<li><p><strong>Contexto geografico:</strong> Todos los estudios provienen de Europa y Estados Unidos. No hay evidencia de paises en desarrollo, lo que limita la generalizabilidad directa al contexto colombiano. Las condiciones institucionales, la capacidad administrativa y el entorno fiscal en Antioquia difieren sustancialmente de los paises estudiados.</p></li>
+<li><p><strong>Sesgo de publicacion:</strong> Aunque los autores demuestran que no compromete los resultados principales, existe un sesgo sistematico hacia la publicacion de resultados que favorecen la IMC.</p></li>
+<li><p><strong>Calidad de servicio no considerada:</strong> El meta-analisis solo evalua costos, no calidad. La IMC podria reducir costos a expensas de la calidad, un aspecto que las PAP deben monitorear.</p></li>
+<li><p><strong>Costos de transaccion poco claros:</strong> La relacion entre costos de transaccion asociados al servicio y ventajas de la IMC es debil y no sistematica, lo que sugiere que este factor requiere investigacion adicional antes de aplicarse a la toma de decisiones.</p></li>
+<li><p><strong>Variable de delegacion simplificada:</strong> La dummy de delegacion no captura la diversidad de formas de delegacion ni sus grados de autonomia, lo que limita la precision de las implicaciones para el diseno institucional de las PAP.</p></li>
+<li><p><strong>Heterogeneidad de servicios:</strong> La mayoria de estudios de un solo servicio se concentran en residuos solidos. La evidencia para otros servicios (transporte, catastro, por ejemplo) es mas limitada.</p></li>
+<li><p><strong>Temporalidad:</strong> Los datos cubren hasta 2015 aproximadamente; la literatura posterior puede haber aportado nueva evidencia.</p></li>
+</ol>
+<hr>
+</section>
+<section id="citas-textuales-clave" class="level2">
+<h2 class="anchored" data-anchor-id="citas-textuales-clave">8. Citas textuales clave</h2>
+<ol type="1">
+<li><blockquote class="blockquote">
+<p>“IMC is seen as a tool that can lower costs by exploiting economies of scale, while maintaining greater control over production, something that is not readily achievable with privatization.” (p.&nbsp;2)</p>
+</blockquote></li>
+<li><blockquote class="blockquote">
+<p>“We found that studies conducted in municipalities with small population sizes tend to find IMC more cost advantageous, which is consistent with the hypothesis we formulate in relation to scale economies. We also found that the studies in which the governance of cooperation is delegated to supramunicipal governments tend to find IMC more cost advantageous.” (p.&nbsp;26)</p>
+</blockquote></li>
+<li><blockquote class="blockquote">
+<p>“The delegation of power and resources to a supramunicipal government or agency can help minimize monitoring and coordination costs, while enabling participants to reap benefits of cost-related economies of scale.” (p.&nbsp;8)</p>
+</blockquote></li>
+<li><blockquote class="blockquote">
+<p>“We believe the main implication that can be drawn by policy makers from our results is that ‘one size does not fit all’: IMC can be cost advantageous for some services, but not for others. The possibility of exploiting scale economies, particularly in the case of small municipalities, seems to be robustly associated with cost savings. Moreover, just how the governance of the cooperation is arranged matters, highlighting the need to carefully consider the coordination and supervision costs involved.” (p.&nbsp;27)</p>
+</blockquote></li>
+<li><blockquote class="blockquote">
+<p>“IMC governance can take the form of informal agreements, formal contracts between the parties, joint-bodies for governance, or the delegation of power and resources to supra-municipal bodies – government or agency. A common characteristic of all these IMC arrangements is the option available to a municipality to withdraw from the collaboration as and when it wishes.” (p.&nbsp;7)</p>
+</blockquote></li>
+</ol>
+<hr>
+</section>
+<section id="conexiones-con-otros-estudios-del-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="conexiones-con-otros-estudios-del-corpus">9. Conexiones con otros estudios del corpus</h2>
+<ul>
+<li><strong>Feiock (2007; 2013):</strong> Marco de accion colectiva institucional (ICA) citado extensamente en este articulo como base para los costos de transaccion de gobernanza. El articulo de Feiock proporciona la tipologia de costos (informacion, coordinacion, negociacion, monitoreo) que Bel y Sebo operacionalizan.</li>
+<li><strong>Bel &amp; Warner (2015, 2016):</strong> Revisiones previas de los mismos autores sobre IMC y costos, y sobre factores que explican la IMC, que sirven como antecedentes directos de este meta-analisis.</li>
+<li><strong>Teles &amp; Swianiewicz (2018):</strong> Volumen sobre cooperacion intermunicipal en Europa que proporciona contexto institucional para los paises incluidos en el meta-analisis.</li>
+<li><strong>Ostrom (1990); Ostrom, Tiebout &amp; Warren (1961):</strong> Fundamentos teoricos sobre gobernanza policentrica y accion colectiva que subyacen a la justificacion de la IMC.</li>
+<li><strong>Ferraresi, Migali &amp; Rizzo (2018):</strong> Estudio de las Unione dei Comuni italianas (analogas a las PAP) con metodos de diferencia en diferencias, incluido en el meta-analisis como uno de los estudios que confirman ahorros de costos con delegacion.</li>
+<li><strong>Hulst &amp; van Montfort (2012); Hulst et al.&nbsp;(2009):</strong> Estudios comparados sobre formas institucionales de cooperacion intermunicipal en Europa occidental, relevantes para la taxonomia de arreglos de gobernanza.</li>
+<li><strong>Williamson (1999); Brown &amp; Potoski (2003, 2005):</strong> Bases teoricas de costos de transaccion aplicadas a la prestacion de servicios publicos.</li>
+</ul>
+<hr>
+</section>
+<section id="bibtex" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex">10. BibTeX</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">bel2019does</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>     = {Does Inter-Municipal Cooperation Really Reduce Delivery Costs? An Empirical Evaluation of the Role of Scale Economies, Transaction Costs, and Governance Arrangements},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>    = {Bel, Germ{<span class="ch">\`</span>a} and Seb{<span class="ch">\H</span>{o}}, Marianna},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>   = {Urban Affairs Review},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>    = {55},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>    = {4},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>     = {1--36},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>      = {2019},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = {SAGE Publications},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>       = {10.1177/1078087419839492},</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">keywords</span>  = {inter-municipal cooperation, local government, transaction costs, meta-regression analysis}</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cvp-eafit\.github\.io\/proyecto-provincias");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 <a href="https://www.eafit.edu.co/centros-estudio-incidencia/valor-publico">Centro de Valor Público</a> - Universidad EAFIT | Santiago Leyva Botero &amp; <a href="https://www.jcmunozmora.co">Juan Carlos Muñoz-Mora</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jcmunozm@eafit.edu.co">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.jcmunozmora.co">
+      <i class="bi bi-globe" role="img" aria-label="Autor">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/cvp_eafit">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
