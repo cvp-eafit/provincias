@@ -1,1 +1,1 @@
-Sitemap: https://cvp-eafit.github.io/proyecto-provincias/sitemap.xml
+Sitemap: https://cvp-eafit.github.io/provincias/sitemap.xml
